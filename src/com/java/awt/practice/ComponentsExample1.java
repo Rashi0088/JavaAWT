@@ -13,7 +13,7 @@ public class ComponentsExample1 {
 		
 		Frame f=new Frame();
 		Panel p=new Panel();
-		Button b=new Button();
+		Button b=new Button("Click here");
 		
 		
 		 b.addActionListener(new ActionListener() {
@@ -23,6 +23,7 @@ public class ComponentsExample1 {
 	            }
 	        });
 
+		 
 	
 	  p.add(b);
 
